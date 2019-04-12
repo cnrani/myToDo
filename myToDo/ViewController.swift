@@ -13,7 +13,7 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.title = "To-Do"
+        self.title = "My-To-Do"
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(ViewController.didTapAddItemButton(_:)))
         //setup a notification to let us know when the app is about to close
         //and that we should store the user item to persistence. this will call the applicationDidEnterBackground() function in this class
